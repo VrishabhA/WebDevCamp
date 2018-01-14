@@ -1,0 +1,36 @@
+/*Center align*/
+
+h1{
+	text-align: center;
+}
+
+/*table rows and columns*/
+
+/*
+.vmiddle = Vertically Middle elements
+
+.top, .middle, .bottom = Horizontally top middle and bottom classes
+
+*/
+
+table{
+	margin: auto;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+}
+
+td.top{
+	border-bottom: 2px solid black;
+}
+
+td.vmiddle{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+td.bottom{
+	border-top: 2px solid black;
+}

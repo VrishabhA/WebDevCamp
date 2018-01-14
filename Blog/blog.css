@@ -1,0 +1,47 @@
+#body{
+	border: 20px solid #7f7f7f;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+/* Date */
+
+.date{
+	font-family: 'Space Mono', monospace;
+	color: #2d95e5;
+	text-transform: uppercase;;
+	letter-spacing: 2px;
+}
+
+/*Headline*/
+
+.headline{
+	font-family: 'Alegreya', serif;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+/*Horizontal rule*/
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*Body*/
+
+.quote{
+	border-left: 5px solid #c1c1c1;
+	padding-left: 10px;
+}
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.post{
+	padding: 5px;
+}
